@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules
+bower_components
+backstop_data
+
+# Tests directory used by backstopjs to added tests
+tests
+
+.idea

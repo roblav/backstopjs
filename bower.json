@@ -1,0 +1,22 @@
+{
+  "name": "backstopjs",
+  "authors": [
+    "Rob Lavender <robert.lavender@digital.hmrc.gov.uk>"
+  ],
+  "description": "Testing BackstopJS",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "BackstopJS": "backstopjs#^1.1.0"
+  }
+}
