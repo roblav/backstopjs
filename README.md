@@ -48,9 +48,9 @@ Test completed...
 0 Passed
 3 Failed
 
-##Step Eight - Viewing report
+##Step Eight - View the report
 
-$ gulp openReport
+http://localhost:3001/compare/
 
 
 
