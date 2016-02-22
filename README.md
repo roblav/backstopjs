@@ -1,6 +1,17 @@
-# backstopjs
+# BackstopJS
 
-Detail how to get started with this project.
+BackstopJS is a visual regression tool. As website have grown in size, managing site styles using CSS has been problematic as indicated by its name styles cascade. Unfortunately, changing a style for one page can also have unexpected effects in other pages. Instead of relying on the developer to catch any issues through manual testing BackstopJS aims to automate visual testing.
+
+###References
+
+Read more about BackstopJS - http://garris.github.io/BackstopJS/
+Read a BackstopJS setup guide - https://joe-watkins.io/css-visual-regression-testing-with-grunt-backstopjs/
+
+##Initial Setup
+
+Initially this project is setup to work with the P800 prototype, you will need to have this running locally to run tests against.
+
+https://github.com/roblav/p800-payments-prototype
 
 ##Step One - Required Packages
 
@@ -19,3 +30,11 @@ $ npm install
 ##Step Four - BackstopJS Setup
 
 $ grunt backstop:setup
+
+##Step Six - Generate reference images
+
+$ grunt backstop:reference
+
+##Step Seven - Run tests after making updates
+
+$ grunt backstopjs:test
