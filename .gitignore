@@ -2,7 +2,4 @@
 node_modules
 bower_components
 
-# Tests directory used by backstopjs to added tests
-tests
-
 .idea
