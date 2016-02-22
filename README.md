@@ -33,8 +33,24 @@ $ grunt backstop:setup
 
 ##Step Six - Generate reference images
 
+Initially we have to create our base image files to compare against.
+
 $ grunt backstop:reference
 
 ##Step Seven - Run tests after making updates
 
+After we have made our changes to the project we can now run our tests, which will compare any changes with the original reference image files.
+
 $ grunt backstopjs:test
+
+This will tell you how many tests passed or failed. See example below: 
+Test completed...
+0 Passed
+3 Failed
+
+##Step Eight - Viewing report
+
+$ gulp openReport
+
+
+
